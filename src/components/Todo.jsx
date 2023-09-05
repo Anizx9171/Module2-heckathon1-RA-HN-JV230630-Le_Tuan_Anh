@@ -95,7 +95,10 @@ export default function Todo() {
                               <span
                                 style={
                                   e.completed
-                                    ? { textDecoration: "line-through" }
+                                    ? {
+                                        textDecoration: "line-through",
+                                        filter: "brightness(80%)",
+                                      }
                                     : { textDecoration: "none" }
                                 }
                               >
