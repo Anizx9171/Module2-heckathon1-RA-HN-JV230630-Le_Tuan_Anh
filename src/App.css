@@ -1,0 +1,11 @@
+* {
+    color: white !important;
+}
+
+ul>li {
+    background: #ff7070 !important
+}
+
+.form-control {
+    color: #333 !important;
+}
