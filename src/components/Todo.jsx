@@ -19,7 +19,8 @@ export default function Todo() {
       setEdit(0);
     }
   };
-  const addNewJob = () => {
+  const addNewJob = (e) => {
+    e.preventDefault();
     if (idGlob != null) {
       jobs[idGlob].title = value;
       localStorage.setItem("jobs", JSON.stringify(jobs));
